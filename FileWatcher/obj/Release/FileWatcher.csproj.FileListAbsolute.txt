@@ -1,0 +1,5 @@
+c:\users\alc\documents\visual studio 2013\Projects\FileWatcher\FileWatcher\bin\Release\FileWatcher.exe.config
+c:\users\alc\documents\visual studio 2013\Projects\FileWatcher\FileWatcher\bin\Release\FileWatcher.exe
+c:\users\alc\documents\visual studio 2013\Projects\FileWatcher\FileWatcher\bin\Release\FileWatcher.pdb
+c:\users\alc\documents\visual studio 2013\Projects\FileWatcher\FileWatcher\obj\Release\FileWatcher.exe
+c:\users\alc\documents\visual studio 2013\Projects\FileWatcher\FileWatcher\obj\Release\FileWatcher.pdb
