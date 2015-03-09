@@ -4,3 +4,6 @@ c:\users\alc\documents\visual studio 2013\Projects\FileWatcher\FileWatcher\bin\D
 c:\users\alc\documents\visual studio 2013\Projects\FileWatcher\FileWatcher\obj\Debug\FileWatcher.csprojResolveAssemblyReference.cache
 c:\users\alc\documents\visual studio 2013\Projects\FileWatcher\FileWatcher\obj\Debug\FileWatcher.exe
 c:\users\alc\documents\visual studio 2013\Projects\FileWatcher\FileWatcher\obj\Debug\FileWatcher.pdb
+C:\Users\sx00127\Downloads\FileWatcher\FileWatcher\bin\Debug\FileWatcher.exe.config
+C:\Users\sx00127\Downloads\FileWatcher\FileWatcher\obj\Debug\FileWatcher.exe
+C:\Users\sx00127\Downloads\FileWatcher\FileWatcher\obj\Debug\FileWatcher.pdb
