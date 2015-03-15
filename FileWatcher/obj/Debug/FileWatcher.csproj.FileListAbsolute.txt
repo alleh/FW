@@ -7,3 +7,6 @@ c:\users\alc\documents\visual studio 2013\Projects\FileWatcher\FileWatcher\obj\D
 C:\Users\sx00127\Downloads\FileWatcher\FileWatcher\bin\Debug\FileWatcher.exe.config
 C:\Users\sx00127\Downloads\FileWatcher\FileWatcher\obj\Debug\FileWatcher.exe
 C:\Users\sx00127\Downloads\FileWatcher\FileWatcher\obj\Debug\FileWatcher.pdb
+C:\Users\alc\Downloads\Filewatcher\FileWatcher\bin\Debug\FileWatcher.exe.config
+C:\Users\alc\Downloads\Filewatcher\FileWatcher\obj\Debug\FileWatcher.exe
+C:\Users\alc\Downloads\Filewatcher\FileWatcher\obj\Debug\FileWatcher.pdb
