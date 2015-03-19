@@ -11,9 +11,7 @@ namespace FileWatcher
     class FileWatcher
     {
         private readonly string _folderToWatch;
-        //private string _copyDestination = "C:/Users/alc/Desktop/folder2";
         private readonly List<string> _copyDestinations; //= new List<string>();
-        //private List<DirectoryInfo> targetFolder = new List<DirectoryInfo>();
 
         public FileWatcher(string source, List<string> destination)
         {
@@ -88,10 +86,10 @@ namespace FileWatcher
                 Directory.CreateDirectory(target.FullName);
             }
 
-            //foreach (var file in target.GetFiles("*", SearchOption.AllDirectories))
-            //{
-            //    File.Delete(file.FullName);
-            //}
+            foreach (var file in target.GetFiles("*", SearchOption.AllDirectories))
+            {
+                File.Delete(file.FullName);
+            }
 
             foreach (var file in source.GetFiles("*", SearchOption.AllDirectories).Where(f => f.LastWriteTime > since))
             {
@@ -108,14 +106,6 @@ namespace FileWatcher
                     Console.WriteLine("ERROR: " + exc.Message);
                 }
             }
-
-
-
-            //foreach (var SourceSubDir in source.GetDirectories())
-            //{
-            //    var targetSubDir = target.CreateSubdirectory(SourceSubDir.Name);
-            //    CopyAll(SourceSubDir, targetSubDir);
-            //}
         }
     }
 }
