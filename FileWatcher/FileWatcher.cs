@@ -11,7 +11,7 @@ namespace FileWatcher
     class FileWatcher
     {
         private readonly string _folderToWatch;
-        private readonly List<string> _copyDestinations; //= new List<string>();
+        private readonly List<string> _copyDestinations;
 
         public FileWatcher(string source, List<string> destination)
         {
@@ -21,10 +21,6 @@ namespace FileWatcher
 
         public void Start()
         {
-            //_copyDestinations.Add(@"C:\Repos\folder2");
-            //_copyDestinations.Add(@"C:\Repos\folder3");
-            //_copyDestinations.Add(@"C:\Repos\folder4");
-
             var watcher = new FileSystemWatcher(_folderToWatch);
             watcher.NotifyFilter = NotifyFilters.LastWrite | NotifyFilters.FileName | NotifyFilters.DirectoryName;
 
